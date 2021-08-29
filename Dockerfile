@@ -5,8 +5,9 @@ RUN apt-get update \
 
 RUN wget -qO zfile.war https://github.com/zhaojun1998/zfile/releases/download/3.1/zfile-3.1.war
 
+RUN cp /run.sh /root/zfile/run.sh
 RUN unzip zfile.war -C /root/zfile
 RUN chmod -r +x /root/zfile \
-    && chmod -r +x /root/zfile/run.sh
+    && chmod +x /root/zfile/run.sh
 
 CMD /root/zfile/run.sh
