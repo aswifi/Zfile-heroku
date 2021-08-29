@@ -84,3 +84,5 @@ spring:
   profiles:
     active: prod
 EOF
+
+sh /root/zfile/bin/start.sh
