@@ -8,6 +8,6 @@ RUN wget -qO zfile.war https://github.com/zhaojun1998/zfile/releases/download/3.
 #RUN cp /run.sh /root/zfile/run.sh
 RUN unzip zfile.war -d /root/zfile
 RUN chmod -R +x /root/zfile \
-    && chmod +x /root/zfile/run.sh
+    && chmod +x /run.sh
 
 CMD /run.sh
