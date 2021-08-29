@@ -10,4 +10,4 @@ RUN unzip zfile.war -C /root/zfile
 RUN chmod -r +x /root/zfile \
     && chmod +x /root/zfile/run.sh
 
-CMD /root/zfile/run.sh
+CMD run.sh
