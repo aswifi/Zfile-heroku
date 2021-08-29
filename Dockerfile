@@ -1,4 +1,4 @@
-FROM 8-jdk-buster
+FROM openjdk:8-jdk-buster
 
 RUN apt-get update \
     && apt-get install wget curl unzip zip -y
