@@ -1,0 +1,8 @@
+{
+	"name": "zfile",
+	"description": "Deploy zfile on Heroku.",
+	"repository": "https://github.com/NicoChiGu/Zfile-heroku",
+	"keywords": ["zfile"],
+	"website": "#",
+	"stack": "container"
+}
