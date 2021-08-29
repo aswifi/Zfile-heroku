@@ -9,4 +9,4 @@ RUN unzip zfile.war -C /root/zfile
 RUN chmod -r +x /root/zfile \
     && chmod -r +x /root/zfile/run.sh
 
-CMD /root/cloudreve/run.sh
+CMD /root/zfile/run.sh
