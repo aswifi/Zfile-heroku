@@ -85,4 +85,4 @@ spring:
     active: prod
 EOF
 
-sh /root/zfile/bin/start.sh
+/root/zfile/bin/start.sh
